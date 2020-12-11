@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <nav class="navigation container">
+        <div class="nav-brand">KUNAL PATIL</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="index.html">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="project.html">Projects</a>
+            </li>
+            <li class="list-item-inline link-active">
+                <a class="link" href="blogstarter.html">Blogs</a>
+            </li>
+            
+        </ul>
+    </nav>
+
+    <header class="container container-center">
+        <h1>How do Web Servers work?</h1>
+        <small>Date: 10th Dec 2020</small>
+    </header>
+    
+    <div class="container-center text">
+        <p>The term web server can refer to hardware or software, or both of them working together.</p>
+        <ul>
+            <li>On the hardware side, a web server is a computer that stores web server software and a website's component files. (for example, HTML documents, images, CSS stylesheets, and JavaScript files) A web server connects to the Internet and supports physical data interchange with other devices connected to the web.
+            </li>
+            <li>
+                On the software side, a web server includes several parts that control how web users access hosted files. At a minimum, this is an HTTP server. An HTTP server is software that understands URLs (web addresses) and HTTP (the protocol your browser uses to view webpages). An HTTP server can be accessed through the domain names of the websites it stores, and it delivers the content of these hosted websites to the end user's device.
+            </li>
+        </ul>
+        <img src="/images/web-server.svg"/>
+        <p>To publish a website, you need either a static or a dynamic web server.<br>
+
+            <br>A <strong>static web server</strong>, or stack, consists of a computer (hardware) with an HTTP server (software). We call it "static" because the server sends its hosted files as-is to your browser.<br>
+            
+            <br>A <strong>dynamic web server</strong> consists of a static web server plus extra software, most commonly an application server and a database. We call it "dynamic" because the application server updates the hosted files before sending content to your browser via the HTTP server.
+        </p>
+        <h2>Hosting files</h2>
+        <p>First, a web server has to store the website's files, namely all HTML documents and their related assets, including images, CSS stylesheets, JavaScript files, fonts, and video.<br>
+
+        <br>Technically, you could host all those files on your own computer, but it's far more convenient to store files all on a dedicated web server because:</p>
+
+        <ul>
+            <li>
+                A dedicated web server is typically more available. (up and running)
+            </li>
+            <li>
+                Excusing downtime and systems troubles, a dedicated web server is always connected to the Internet.
+            </li>
+            <li>
+                A dedicated web server can have the same IP address all the time. This is known as a dedicated IP address. (not all ISPs provide a fixed IP address for home lines)
+            </li>
+            <li>
+                A dedicated web server is typically maintained by a third-party.
+            </li>
+        </ul>
+        <h2>Communicating through HTTP</h2>
+        <p>Second, a web server provides support for HTTP (Hypertext Transfer Protocol). As its name implies, HTTP specifies how to transfer hypertext (linked web documents) between two computers.<br>
+        <br>A Protocol is a set of rules for communication between two computers. HTTP is a textual, stateless protocol.</p>
+        
+    </div>
+
+    <footer class="footer">
+        <div class="footer-header">Connect with me here</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/kunalpatil239">
+                    github
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/blessedIndian23">
+                    twitter
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/kunalpatil239/">
+                    linkedin
+                </a>
+            </li>
+            
+        </ul>
+    </footer>
+
+</body>
+</html>

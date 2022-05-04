@@ -7,7 +7,7 @@ const Contact = () => {
     <>
       <div
         name="contact"
-        className="pt-[8rem]  w-full h-screen bg-[#0a192f] flex justify-center items-center p-4"
+        className="pt-[10rem]  w-full h-screen bg-[#0a192f] flex justify-center items-center p-4"
       >
         <form
           method="POST"
@@ -47,7 +47,7 @@ const Contact = () => {
         </form>
       </div>
       {/* footer */}
-      <div className="footer w-full pt-[4rem] pb-[2.5rem] bg-[#0a192f] flex justify-center items-center text-gray-300">
+      <div className="footer w-full pt-[6rem] pb-[2.5rem] bg-[#0a192f] flex justify-center items-center text-gray-300">
         <div className="flex flex-col justify-center items-center">
           <p>Connect on Social Media</p>
           <div className="flex justfy-center mt-4">

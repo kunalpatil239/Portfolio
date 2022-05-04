@@ -101,7 +101,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               target="_blank"
-              href="https://www.linkedin.com/kunalpatil239"
+              href="https://www.linkedin.com/in/kunalpatil2391/"
               rel="noreferrer noopener"
             >
               LinkedIn

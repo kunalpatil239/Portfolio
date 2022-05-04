@@ -19,10 +19,12 @@ const About = () => {
           <div>
             <p>
               I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?
+              the lives of those around me. I'm electrical engineer turn Web
+              developer and Full Stack coding bootcamp graduate. My hobbies are
+              travelling to new places and watching boxing. I thrive on
+              connecting and collaborating with people in the industry and am
+              always open to opportunities that could help myself and others
+              grow.
             </p>
           </div>
         </div>

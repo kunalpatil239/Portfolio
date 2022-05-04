@@ -1,11 +1,10 @@
 import React from "react";
-import work from "../assets/workImg.jpeg";
 import note from "../assets/notezipper.PNG";
 import instafood2 from "../assets/instafood2.PNG";
-import instacart from "../assets/instacart.PNG";
 import instacart3 from "../assets/instacart3.PNG";
 import expense from "../assets/expensetracker.PNG";
 import todo from "../assets/todo.PNG";
+import travel from "../assets/travel.PNG";
 
 const Work = () => {
   return (
@@ -182,17 +181,17 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${instafood2})` }}
+            style={{ backgroundImage: `url(${travel})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100 ">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Travel Agency page
               </span>
               <div className="pt-8 text-center">
                 <a
-                  href="https://instafood-restaurant.netlify.app/"
+                  href="https://travel-agency-page.netlify.app/"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
@@ -201,7 +200,7 @@ const Work = () => {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/kunalpatil239/html-css-restaurant-website"
+                  href="https://github.com/kunalpatil239/Travel-Agency-Landing-page"
                   target="_blank"
                   rel="noreferrer noopener"
                 >

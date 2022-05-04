@@ -7,7 +7,7 @@ const Contact = () => {
     <>
       <div
         name="contact"
-        className="pt-[6rem] sm:pt-[12rem]  w-full h-auto bg-[#0a192f] flex justify-center items-center p-4 contact"
+        className="pt-[7rem] sm:pt-[12rem]  w-full h-auto bg-[#0a192f] flex justify-center items-center p-4 contact"
       >
         <form
           method="POST"
@@ -55,7 +55,7 @@ const Contact = () => {
               <a
                 className="hover:text-red-600 transition ease-out duration-300"
                 target="_blank"
-                href="https://www.linkedin.com/kunalpatil239"
+                href="https://www.linkedin.com/in/kunalpatil2391/"
                 rel="noreferrer noopener"
               >
                 <FaLinkedinIn size={25} />

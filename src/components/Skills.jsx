@@ -11,7 +11,7 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="pt-[7rem] w-full h-[110vh] bg-[#0a192f] text-gray-300"
+      className="pt-[7rem] sm:pt-[0] w-full h-110vh sm:h-[100vh] bg-[#0a192f] text-gray-300"
     >
       {/* container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">

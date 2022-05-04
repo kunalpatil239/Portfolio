@@ -21,10 +21,9 @@ const About = () => {
               I am passionate about building excellent software that improves
               the lives of those around me. I'm electrical engineer turn Web
               developer and Full Stack coding bootcamp graduate. My hobbies are
-              travelling to new places and watching boxing. I thrive on
-              connecting and collaborating with people in the industry and am
-              always open to opportunities that could help myself and others
-              grow.
+              travelling and watching boxing. I thrive on connecting and
+              collaborating with people in the industry and am always open to
+              opportunities that could help myself and others grow.
             </p>
           </div>
         </div>

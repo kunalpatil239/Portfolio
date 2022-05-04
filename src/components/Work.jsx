@@ -4,7 +4,7 @@ import instafood2 from "../assets/instafood2.PNG";
 import instacart3 from "../assets/instacart3.PNG";
 import expense from "../assets/expensetracker.PNG";
 import todo from "../assets/todo.PNG";
-import travel from "../assets/travel.PNG";
+import travel2 from "../assets/travel2.PNG";
 
 const Work = () => {
   return (
@@ -181,7 +181,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${travel})` }}
+            style={{ backgroundImage: `url(${travel2})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effects */}

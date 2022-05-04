@@ -18,12 +18,12 @@ const About = () => {
           </div>
           <div>
             <p>
-              I am passionate about building excellent software that improves
-              the lives of those around me. I'm electrical engineer turn Web
-              developer and Full Stack coding bootcamp graduate. My hobbies are
-              travelling and watching boxing. I thrive on connecting and
-              collaborating with people in the industry and am always open to
-              opportunities that could help myself and others grow.
+              I am passionate about building software that improves the lives of
+              those around me. I'm electrical engineer turn Web developer and
+              coding bootcamp graduate. My hobbies are travelling and watching
+              boxing. I thrive on connecting and collaborating with people in
+              the industry and am always open to opportunities that could help
+              myself and others grow.
             </p>
           </div>
         </div>

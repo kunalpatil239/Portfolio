@@ -35,7 +35,7 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a
-                  href="https://notezipper-mern-kunal.herokuapp.com/"
+                  href="https://notezipperv2.herokuapp.com/"
                   target="_blank"
                   rel="noreferrer noopener"
                 >

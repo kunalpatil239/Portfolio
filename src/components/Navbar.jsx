@@ -6,6 +6,7 @@ import {
   FaLinkedin,
   FaFacebook,
   FaInstagram,
+  FaTwitter,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -99,7 +100,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              target="_blank"
+              href="https://www.linkedin.com/kunalpatil239"
+              rel="noreferrer noopener"
             >
               LinkedIn
               <FaLinkedin size={30} />
@@ -108,7 +111,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              target="_blank"
+              href="https://github.com/kunalpatil239"
+              rel="noreferrer noopener"
             >
               Github
               <FaGithub size={30} />
@@ -117,7 +122,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              target="_blank"
+              href="mailto:kunalpatil239@gmail.com"
+              rel="noreferrer noopener"
             >
               Email
               <HiOutlineMail size={30} />
@@ -126,11 +133,13 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              target="_blank"
+              href="https://www.twitter.com/kunalpatil239"
+              rel="noreferrer noopener"
             >
-              Resume
+              Twitter
               {/* <BsFillPersonLinesFill size={30} /> */}
-              <FaInstagram size={30} />
+              <FaTwitter size={30} />
             </a>
           </li>
         </ul>

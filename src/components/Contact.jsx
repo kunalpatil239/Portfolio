@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 
 const Contact = () => {
@@ -53,32 +53,40 @@ const Contact = () => {
           <div className="flex justfy-center mt-4">
             <div className="mr-3">
               <a
-                href="#"
                 className="hover:text-red-600 transition ease-out duration-300"
+                target="_blank"
+                href="https://www.linkedin.com/kunalpatil239"
+                rel="noreferrer noopener"
               >
                 <FaLinkedinIn size={25} />
               </a>
             </div>
             <div className="mr-3">
               <a
-                href="#"
                 className="hover:text-red-600 transition ease-out duration-300"
+                target="_blank"
+                href="https://github.com/kunalpatil239"
+                rel="noreferrer noopener"
               >
                 <FaGithub size={25} />
               </a>
             </div>
             <div className="mr-3">
               <a
-                href="#"
                 className="hover:text-red-600 transition ease-out duration-300"
+                target="_blank"
+                href="https://www.twitter.com/kunalpatil239"
+                rel="noreferrer noopener"
               >
-                <FaInstagram size={25} />
+                <FaTwitter size={25} />
               </a>
             </div>
             <div>
               <a
-                href="#"
                 className="hover:text-red-600 transition ease-out duration-300"
+                target="_blank"
+                href="mailto:kunalpatil239@gmail.com"
+                rel="noreferrer noopener"
               >
                 <HiOutlineMail size={26} />
               </a>

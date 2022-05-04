@@ -47,7 +47,7 @@ const Contact = () => {
         </form>
       </div>
       {/* footer */}
-      <div className="footer w-full pt-[8rem] pb-[2.5rem] bg-[#0a192f] flex justify-center items-center text-gray-300">
+      <div className="footer w-full pt-[8rem] pb-[2rem] bg-[#0a192f] flex justify-center items-center text-gray-300">
         <div className="flex flex-col justify-center items-center">
           <p>Connect on Social Media</p>
           <div className="flex justfy-center mt-4">

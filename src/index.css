@@ -34,7 +34,7 @@
 }
 @media (max-width: 500px) {
   .home {
-    height: 75vh;
+    height: 76vh;
   }
   .home-flex {
     justify-content: flex-end;

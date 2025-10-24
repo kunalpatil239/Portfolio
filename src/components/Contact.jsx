@@ -85,7 +85,7 @@ const Contact = () => {
               <a
                 className="hover:text-red-600 transition ease-out duration-300"
                 target="_blank"
-                href="mailto:kunalpatil239@gmail.com"
+                href="mailto:kunalpatil2391@gmail.com"
                 rel="noreferrer noopener"
               >
                 <HiOutlineMail size={26} />
